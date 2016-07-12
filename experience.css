@@ -1,0 +1,118 @@
+/*GLOBAL STYLES*/
+
+
+* {
+
+  box-sizing: border-box;
+}
+
+/*LINK STYLES*/
+
+
+/*SECTION STYLES*/
+
+body {
+  font-size: 1.3em;
+  line-height: 1.7;
+  background: #323A45;
+  color: #fff;SSS
+}
+
+.main-grid, 
+.exp-intro {
+    padding: 0 5%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-grid img {  
+    width: 124px;  
+}
+
+.circle-block {
+     text-align: center;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+  /*font-family: "Merriweather", serif;*/
+  font-size: 1.7em;
+
+}
+
+
+
+.backToHome-div{ 
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 0 5%;     
+}
+
+.backToHome-div a {
+    color: white;
+    width: auto;
+    background: red;
+    padding: .80rem 3rem;
+    border-radius: 0 .3rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+/*Media queries*/
+@media screen and (min-width: 910px) 
+{
+    /*all div where parent is .main-grid*/
+     .main-grid > div {
+          width: 48%;  
+          float: left;     
+     }
+
+     .exp-intro-text {
+        margin-bottom: 80px;
+     }
+
+    /*within Exp-grid*/
+    .circle-block img {
+        float: left; 
+        
+        /*margin-right: 1rem;*/
+        /*border:   red 2px solid;*/
+      }
+
+      .top-left, .bottom-left {
+        margin-right: 2rem;
+      }
+
+      .top-left, .top-right {
+        margin-bottom: 7rem;
+      }
+  
+
+    .circle-block{
+        float: left;
+        margin-right: 3rem;
+    }
+
+
+    .exp-grid-text {
+        overflow: hidden;       
+    }
+
+    .exp-grid-heading {
+        margin-top: 0;               
+    }
+
+    .main-grid::after {
+        content:"";
+        display: table;
+        clear: both;  
+  
+    }
+
+}
+
