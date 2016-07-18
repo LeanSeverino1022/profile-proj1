@@ -81,10 +81,7 @@ header .profile-image {
 }
 
 header .profile-image:hover {
-    transform: scale(1.2) rotate(5deg);
-   
-    -webkit-filter: saturate(3); /* Chrome, Safari, Opera */   
-    filter: saturate(3);
+    transform: scale(1.2) rotate(5deg);  
 }
 
 .tag {
